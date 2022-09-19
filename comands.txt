@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m 'initial commit'
+git checkout -b dev
+git checkout -b test
+git remote add origin https://github.com/Belal95/gitDemo.git
+git push origin main
+git push origin dev
+git push origin test
